@@ -23,4 +23,4 @@ O projeto é composto por um brinquedo interativo impresso em 3D no formato de *
 - **Ferramenta para Diagrama**: draw.io
 
 ## 🗺️ Diagrama da Arquitetura
-![Diagrama da Arquitetura](moskitto_arquitetura_1drawio.png)
+![Diagrama da Arquitetura](moskitto_arquitetura_1.drawio.png)

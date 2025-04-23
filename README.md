@@ -15,7 +15,7 @@ O projeto é composto por um brinquedo interativo impresso em 3D no formato de *
 #### 2. Back-end
 - **Plataforma de IoT**: FIWARE
   - **Orion Context Broker**: Gerencia o contexto da aplicação
-  - **Entidade**: `Display001` com atributo `senha`
+  - **Entidade**: `Display001` com atributo `value`
 
 #### 3. Aplicação
 - **Interface de Gerenciamento**: Painel web ou API para enviar atualizações. (Postman por enquanto)

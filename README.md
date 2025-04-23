@@ -1,7 +1,7 @@
 # Projeto: Brinquedo com Painel Infantil de Atendimento com ESP32-C3 e FIWARE
 
 ## 🎯 Objetivo
-O projeto é composto por um brinquedo interativo impresso em 3D no formato de **gatinho**, equipado com um ESP32-C3 SuperMini e um display OLED. O brinquedo é entregue à criança junto com o responsável e exibe a senha de atendimento da criança de forma lúdica e acolhedora.
+O projeto é composto por um brinquedo interativo impresso em 3D no formato de **gatinho**, equipado com um ESP32-C3 SuperMini e um display OLED. O brinquedo é entregue à criança junto com o responsável e exibe a senha de atendimento da criança, informando quando chegar o atendimento, tudo de forma lúdica e acolhedora.
 
 ## 🧱 Arquitetura da Solução
 

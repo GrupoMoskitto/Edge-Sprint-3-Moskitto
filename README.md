@@ -14,8 +14,6 @@ ESP32-C3
 
 Display OLED
 
-Sensor LDR (opcional)
-
 Realiza requisição HTTP GET para o Orion Context Broker a cada 20 segundos.
 
 Atualiza o texto exibido conforme o valor do atributo text da entidade Display001.

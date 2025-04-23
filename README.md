@@ -16,7 +16,7 @@ O projeto é composto por um brinquedo interativo impresso em 3D no formato de *
 - **Plataforma de IoT**: FIWARE
   - **Orion Context Broker**: Gerencia o contexto da aplicação
   - **Entidade**: `Display001` com atributo `value`
-
+    
 #### 3. Aplicação
 - **Interface de Gerenciamento**: Painel web ou API para enviar atualizações. (Postman por enquanto)
 - **Simulação**: Wokwi (link incluso)
@@ -24,3 +24,8 @@ O projeto é composto por um brinquedo interativo impresso em 3D no formato de *
 
 ## 🗺️ Diagrama da Arquitetura
 ![Diagrama da Arquitetura](moskitto_arquitetura_1.drawio.png)
+
+## 🧪 Link para a Simulação no Wokwi
+
+[https://wokwi.com/projects/428687533684130817]
+

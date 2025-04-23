@@ -5,22 +5,35 @@ O projeto é composto por um brinquedo interativo impresso em 3D no formato de *
 
 ## 🧱 Arquitetura da Solução
 
-### Camadas:
+Arquitetura da Solução
+A solução é baseada em uma arquitetura de 3 camadas:
 
-#### 1. IoT
-- **Microcontrolador**: ESP32-C3 SuperMini
-- **Atuador**: Display OLED (0.96" I2C SSD1306)
-- **Comunicação**: Wi-Fi
+📡 1. IoT (Dispositivo Físico)
+Brinquedo em forma de gatinho, com:
 
-#### 2. Back-end
-- **Plataforma de IoT**: FIWARE
-  - **Orion Context Broker**: Gerencia o contexto da aplicação
-  - **Entidade**: `Display001` com atributo `value`
-    
-#### 3. Aplicação
-- **Interface de Gerenciamento**: Painel web ou API para enviar atualizações. (Postman por enquanto)
-- **Simulação**: Wokwi (link incluso)
-- **Ferramenta para Diagrama**: draw.io
+ESP32-C3
+
+Display OLED
+
+Sensor LDR (opcional)
+
+Realiza requisição HTTP GET para o Orion Context Broker a cada 20 segundos.
+
+Atualiza o texto exibido conforme o valor do atributo text da entidade Display001.
+
+☁️ 2. Back-End (FIWARE)
+Orion Context Broker, hospedado em uma VM no Azure.
+
+Porta: 1026
+
+Armazena e disponibiliza a entidade Display001 com o atributo text, do tipo String.
+
+Interface REST API via NGSIv2.
+
+💻 3. Aplicação 
+Painel web ou aplicação de gestão que envia atualizações para o Context Broker(Postman por enquanto).
+
+Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-ServicePath.
 
 ## 🗺️ Diagrama da Arquitetura
 ![Diagrama da Arquitetura](moskitto_arquitetura_1.drawio.png)

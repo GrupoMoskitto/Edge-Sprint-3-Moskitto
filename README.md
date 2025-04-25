@@ -36,9 +36,11 @@ Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-Ser
 ![Diagrama da Arquitetura](moskitto_arquitetura_1.drawio.png)
 
 ## 🧪 Link para a Simulação no Wokwi
+![Simulação](wokwi-simulação.png)
 
-WOKWI: https://wokwi.com/projects/428687533684130817
+Wokwi: https://wokwi.com/projects/428687533684130817
 
 ## :smile_cat: Video do Pitch
+![Youtube](Gatinho-Sabará-youtube.png)
 
-https://www.youtube.com/watch?v=nGFiCgAD6WQ
+Youtube: https://www.youtube.com/watch?v=nGFiCgAD6WQ

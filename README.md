@@ -37,5 +37,8 @@ Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-Ser
 
 ## 🧪 Link para a Simulação no Wokwi
 
-[https://wokwi.com/projects/428687533684130817]
+WOKWI: https://wokwi.com/projects/428687533684130817
 
+## :smile_cat: Video do Pitch
+
+https://www.youtube.com/watch?v=nGFiCgAD6WQ

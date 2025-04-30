@@ -40,6 +40,11 @@ Comunicação via HTTP na porta 1026 com cabeçalhos Fiware-Service e Fiware-Ser
 
 Wokwi: https://wokwi.com/projects/428687533684130817
 
+## :smile_cat: Explicação da Arquitetura
+![Youtube](video-simulacao-youtube.png)
+
+Youtube: https://youtu.be/tfh6tKAZBYQ
+
 ## :smile_cat: Video do Pitch
 ![Youtube](Gatinho-Sabará-youtube.png)
 
